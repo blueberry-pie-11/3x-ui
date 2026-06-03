@@ -1,6 +1,6 @@
 module x-ui
 
-go 1.22.5
+go 1.24.0
 
 require (
 	github.com/gin-contrib/gzip v1.0.1
@@ -16,8 +16,8 @@ require (
 	github.com/valyala/fasthttp v1.55.0
 	github.com/xtls/xray-core v1.8.20
 	go.uber.org/atomic v1.11.0
-	golang.org/x/text v0.16.0
-	google.golang.org/grpc v1.65.0
+	golang.org/x/text v0.32.0
+	google.golang.org/grpc v1.79.3
 	gorm.io/driver/sqlite v1.5.6
 	gorm.io/gorm v1.25.11
 )
@@ -26,7 +26,7 @@ require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
 	github.com/bytedance/sonic v1.11.9 // indirect
 	github.com/bytedance/sonic/loader v0.1.1 // indirect
-	github.com/cloudflare/circl v1.3.9 // indirect
+	github.com/cloudflare/circl v1.6.3 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
@@ -62,7 +62,7 @@ require (
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/quic-go v0.45.1 // indirect
-	github.com/refraction-networking/utls v1.6.7 // indirect
+	github.com/refraction-networking/utls v1.8.2 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
 	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/sagernet/sing v0.4.2 // indirect
@@ -84,18 +84,18 @@ require (
 	go.uber.org/mock v0.4.0 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/crypto v0.25.0 // indirect
+	golang.org/x/crypto v0.46.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/mod v0.19.0 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sync v0.7.0 // indirect
-	golang.org/x/sys v0.22.0 // indirect
+	golang.org/x/mod v0.30.0 // indirect
+	golang.org/x/net v0.48.0 // indirect
+	golang.org/x/sync v0.19.0 // indirect
+	golang.org/x/sys v0.39.0 // indirect
 	golang.org/x/time v0.5.0 // indirect
-	golang.org/x/tools v0.23.0 // indirect
+	golang.org/x/tools v0.39.0 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2 // indirect
 	golang.zx2c4.com/wireguard v0.0.0-20231211153847-12269c276173 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240711142825-46eb208f015d // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20251202230838-ff82c1b0f217 // indirect
+	google.golang.org/protobuf v1.36.10 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gvisor.dev/gvisor v0.0.0-20231202080848-1f7806d17489 // indirect
 	lukechampine.com/blake3 v1.3.0 // indirect
